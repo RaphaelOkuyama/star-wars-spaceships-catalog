@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Catálogo de Espaçonaves do Universo Star Wars
 
-## Getting Started
+Bem-vindo ao **Catálogo de Espaçonaves do Universo Star Wars**, um projeto desenvolvido com o framework **Next.js**. Este catálogo permite aos usuários explorar as espaçonaves mais icônicas do universo Star Wars, incluindo suas categorias, detalhes específicos e imagens associadas.
 
-First, run the development server:
+## Descrição
 
-```bash
+O projeto é um catálogo interativo que utiliza a tecnologia Next.js para gerar páginas dinâmicas baseadas em um conjunto de dados armazenados no formato JSON. As funcionalidades principais incluem:
+
+- **Página inicial** com uma introdução e link para ver todas as espaçonaves.
+- **Listagem de espaçonaves** com navegação dinâmica para detalhes de cada nave.
+- **Roteamento dinâmico** para exibir informações detalhadas sobre uma espaçonave específica.
+- **Categorias** que permitem explorar as espaçonaves por tipo (ex: combatente, transporte, etc.).
+- **Imagens** associadas a cada espaçonave para uma visualização rica.
+
+## Funcionalidades
+
+- **Página Inicial:** Apresenta uma introdução ao catálogo com um link para a página de todas as espaçonaves.
+- **Exibição de Espaçonaves:** Na página "Todas as Espaçonaves", os usuários podem visualizar todas as naves do catálogo e navegar para suas páginas individuais.
+- **Detalhes das Espaçonaves:** Cada nave possui uma página individual com informações detalhadas, como modelo, categoria e uma descrição completa.
+- **Categorias:** As espaçonaves são organizadas em categorias, e os usuários podem filtrar as espaçonaves por categoria (exemplo: naves de combate, naves de transporte, etc.).
+- **Roteamento Dinâmico:** O projeto utiliza Next.js para gerar rotas dinâmicas, garantindo uma navegação eficiente e sem recarregamento de página.
+
+## Tecnologias Usadas
+
+- **Next.js** (React framework) – Para o desenvolvimento da aplicação.
+- **React** – Biblioteca JavaScript para construção de interfaces de usuário.
+- **CSS** – Para estilização da aplicação.
+- **Fontes do Google** – Uso das fontes Geist e Geist Mono para uma tipografia personalizada.
+
+## Como Rodar o Projeto Localmente
+
+Para rodar o projeto localmente em seu computador, siga os passos abaixo:
+
+### 1. Clonar o repositório
+git clone https://github.com/SEU_USUÁRIO/star-wars-spaceships-catalog.git
+cd star-wars-spaceships-catalog
+
+### 2. Instalar as dependências
+npm install
+
+### 3. Rodar o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acesse o projeto no seu navegador através do link http://localhost:3000.
