@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <header>
-          <div>Exercício 3 - Catálogo de Espaçonaves</div>
+          <div>Catálogo de Espaçonaves</div>
           <nav>
             <Link href={"/"}>Início</Link>
             <Link href={"/spaceships"}>Espaçonaves</Link>
