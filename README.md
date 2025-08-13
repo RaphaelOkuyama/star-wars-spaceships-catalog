@@ -1,56 +1,61 @@
-🌌 Catálogo de Espaçonaves do Universo Star Wars
-Bem-vindo ao Catálogo de Espaçonaves do Universo Star Wars, um projeto desenvolvido com o framework Next.js. Este catálogo permite aos usuários explorar as espaçonaves mais icônicas do universo Star Wars, incluindo suas categorias, detalhes específicos e imagens associadas.
+# 🌌 **Catálogo de Espaçonaves do Universo Star Wars**
 
-📝 Descrição
-O projeto é um catálogo interativo que utiliza a tecnologia Next.js para gerar páginas dinâmicas baseadas em um conjunto de dados armazenados no formato JSON. As funcionalidades principais incluem:
+Bem-vindo ao **Catálogo de Espaçonaves do Universo Star Wars**, um projeto desenvolvido com o framework [**Next.js**](https://nextjs.org/). Este catálogo permite aos usuários explorar as espaçonaves mais icônicas do universo Star Wars, incluindo suas categorias, detalhes específicos e imagens associadas.
 
-🌟 Página inicial com uma introdução e link para ver todas as espaçonaves.
+## 📝 **Descrição**
 
-🚀 Listagem de espaçonaves com navegação dinâmica para detalhes de cada nave.
+O projeto é um catálogo interativo que utiliza a tecnologia **Next.js** para gerar páginas dinâmicas baseadas em um conjunto de dados armazenados no formato **JSON**. As funcionalidades principais incluem:
 
-📄 Roteamento dinâmico para exibir informações detalhadas sobre uma espaçonave específica.
+- 🌟 **Página inicial** com uma introdução e link para ver todas as espaçonaves.
+- 🚀 **Listagem de espaçonaves** com navegação dinâmica para detalhes de cada nave.
+- 📄 **Roteamento dinâmico** para exibir informações detalhadas sobre uma espaçonave específica.
+- 🔧 **Categorias** que permitem explorar as espaçonaves por tipo (ex: combatente, transporte, etc.).
+- 🖼️ **Imagens** associadas a cada espaçonave para uma visualização rica.
 
-🔧 Categorias que permitem explorar as espaçonaves por tipo (ex: combatente, transporte, etc.).
+## ⚙️ **Funcionalidades**
 
-🖼️ Imagens associadas a cada espaçonave para uma visualização rica.
+- **Página Inicial:** Apresenta uma introdução ao catálogo com um link para a página de todas as espaçonaves.
+- **Exibição de Espaçonaves:** Na página "Todas as Espaçonaves", os usuários podem visualizar todas as naves do catálogo e navegar para suas páginas individuais.
+- **Detalhes das Espaçonaves:** Cada nave possui uma página individual com informações detalhadas, como **modelo**, **categoria** e uma **descrição completa**.
+- **Categorias:** As espaçonaves são organizadas em categorias, e os usuários podem filtrar as espaçonaves por categoria (exemplo: naves de combate, naves de transporte, etc.).
+- **Roteamento Dinâmico:** O projeto utiliza **Next.js** para gerar rotas dinâmicas, garantindo uma navegação eficiente e sem recarregamento de página.
 
-⚙️ Funcionalidades
-Página Inicial: Apresenta uma introdução ao catálogo com um link para a página de todas as espaçonaves.
+## 🛠️ **Tecnologias Usadas**
 
-Exibição de Espaçonaves: Na página "Todas as Espaçonaves", os usuários podem visualizar todas as naves do catálogo e navegar para suas páginas individuais.
+- **[Next.js](https://nextjs.org/)** – **React framework** para o desenvolvimento da aplicação.
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+  
+- **[React](https://reactjs.org/)** – **Biblioteca JavaScript** para construção de interfaces de usuário.
+  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  
+- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)** – Para estilização da aplicação.
+  ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Detalhes das Espaçonaves: Cada nave possui uma página individual com informações detalhadas, como modelo, categoria e uma descrição completa.
+- **[Fontes do Google](https://fonts.google.com/)** – Uso das fontes **Geist** e **Geist Mono** para uma tipografia personalizada.
+  ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)
 
-Categorias: As espaçonaves são organizadas em categorias, e os usuários podem filtrar as espaçonaves por categoria (exemplo: naves de combate, naves de transporte, etc.).
+## 🚀 **Como Rodar o Projeto Localmente**
 
-Roteamento Dinâmico: O projeto utiliza Next.js para gerar rotas dinâmicas, garantindo uma navegação eficiente e sem recarregamento de página.
-
-🛠️ Tecnologias Usadas
-Next.js – React framework para o desenvolvimento da aplicação.
-
-React – Biblioteca JavaScript para construção de interfaces de usuário.
-
-CSS – Para estilização da aplicação.
-
-Fontes do Google – Uso das fontes Geist e Geist Mono para uma tipografia personalizada.
-
-🚀 Como Rodar o Projeto Localmente
 Para rodar o projeto localmente em seu computador, siga os passos abaixo:
 
-1. Clonar o repositório:
+### 1. **Clonar o repositório:**
+
 git clone https://github.com/SEU_USUÁRIO/star-wars-spaceships-catalog.git
 cd star-wars-spaceships-catalog
 
-2. Instalar as dependências:
+### 2. **Instalar as dependências:**
+
 npm install
 
-3. Rodar o projeto:
-npm run dev
+### 3. **Rodar o projeto:**
 
+npm run dev
 Acesse o projeto no seu navegador através do link: http://localhost:3000.
 
-🤝 Contribuições
-Sugestões, melhorias e contribuições são bem-vindas! Se você tem novas ideias ou scripts úteis, fique à vontade para abrir uma issue ou enviar um pull request.
+## 🤝 **Contribuições**
 
-📄 Licença
-Distribuído sob a licença MIT.
+**Sugestões**, **melhorias** e **contribuições** são bem-vindas! Se você tem novas ideias ou scripts úteis, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+## 📄 **Licença**
+
+Distribuído sob a licença **MIT**.
