@@ -52,6 +52,12 @@ npm install
 npm run dev
 Acesse o projeto no seu navegador através do link: http://localhost:3000.
 
+## 🌐 **Deploy e Acesso Online**
+
+O projeto foi **deployed** utilizando a plataforma **Vercel**, garantindo uma hospedagem rápida e escalável. Você pode acessar o catálogo de espaçonaves do universo Star Wars através do seguinte link:
+
+[**Visite o Catálogo de Espaçonaves Star Wars**](https://star-wars-spaceships-catalog.vercel.app/)
+
 ## 🤝 **Contribuições**
 
 **Sugestões**, **melhorias** e **contribuições** são bem-vindas! Se você tem novas ideias ou scripts úteis, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
