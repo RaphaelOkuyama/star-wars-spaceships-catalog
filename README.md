@@ -31,6 +31,9 @@ O projeto é um catálogo interativo que utiliza a tecnologia **Next.js** para g
 - **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)** – Para estilização da aplicação.
   ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+  - **[TypeScript](https://www.typescriptlang.org/)** – **Superset do JavaScript** adicionando tipagem estática para melhorar a qualidade do código e a manutenção.  
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
 - **[Fontes do Google](https://fonts.google.com/)** – Uso das fontes **Geist** e **Geist Mono** para uma tipografia personalizada.
   ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)
 
